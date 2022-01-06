@@ -4,8 +4,7 @@
 ## 介绍
 
 - 博客：https://kexue.fm/archives/8847
-
-实验数据集同[BERT-whitening](https://github.com/bojone/BERT-whitening/tree/main/chn)。
+- 实验数据集同[BERT-whitening](https://github.com/bojone/BERT-whitening/tree/main/chn)。
 
 ## 环境
 
