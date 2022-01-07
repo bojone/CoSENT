@@ -101,10 +101,10 @@ def cosent_loss(y_true, y_pred):
     y_true：标签/打分，y_pred：句向量
     """
     y_true = y_true[::2, 0]
+    y_true = K.cast(y_true[:, None] < y_true[None, :], K.floatx())
     y_pred = K.l2_normalize(y_pred, axis=1)
     y_pred = K.sum(y_pred[::2] * y_pred[1::2], axis=1) * 20
     y_pred = y_pred[:, None] - y_pred[None, :]
-    y_true = K.cast(y_true[:, None] < y_true[None, :], K.floatx())
     y_pred = K.reshape(y_pred - (1 - y_true) * 1e12, [-1])
     y_pred = K.concatenate([[0], y_pred], axis=0)
     return K.logsumexp(y_pred)
