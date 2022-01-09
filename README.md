@@ -29,6 +29,10 @@ NLI训练、test测试：
 
 需要`bert4keras >= 0.10.8`。个人实验环境是tensorflow 1.15 + keras 2.3.1 + bert4keras 0.10.8。
 
+## 其他
+
+- PyTorch版本（非官方）：https://github.com/shawroad/CoSENT_Pytorch
+
 ## 交流
 QQ交流群：808623966，微信群请加机器人微信号spaces_ac_cn
 
