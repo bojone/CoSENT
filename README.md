@@ -32,6 +32,7 @@ NLI训练、test测试：
 ## 其他
 
 - PyTorch版本（非官方）：https://github.com/shawroad/CoSENT_Pytorch
+- PyTorch版本（非官方）：https://github.com/xiangking/PyTorch_CoSENT
 
 ## 交流
 QQ交流群：808623966，微信群请加机器人微信号spaces_ac_cn
